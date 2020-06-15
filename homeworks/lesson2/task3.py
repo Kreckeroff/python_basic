@@ -7,7 +7,7 @@ while True:
         month = int(month)
         if month > 0 and month < 13:
             break
-    print('write digit num ot 1 do 12')
+    print('write digit num from 1 to 12')
 for i in my_dict.keys():
     if month in my_dict[i]:
         print(i)
